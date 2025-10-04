@@ -1,0 +1,17 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Quitter">
+			<method name="QuitGame"/>
+			<method name="QuitGame"/>
+			<method name="QuitGame"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+	</assembly>
+</linker>

@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: 9cfd06afe27a47042a165af88d8c8308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3460531026250515050
+    second: Marco ui 2_0
+  - first:
+      213: 8714205536391866077
+    second: Marco ui 2_1
+  - first:
+      213: -1747236396790673218
+    second: Marco ui 2_2
+  - first:
+      213: 729594320659196310
+    second: Marco ui 2_3
+  - first:
+      213: 702523884796022461
+    second: Marco ui 2_4
+  - first:
+      213: -5444268360690627142
+    second: Marco ui 2_5
+  - first:
+      213: -6926590305113378310
+    second: Marco ui 2_6
+  - first:
+      213: 6778213731132057330
+    second: Marco ui 2_7
+  - first:
+      213: 626303274569070201
+    second: Marco ui 2_8
+  - first:
+      213: 6325343391051261311
+    second: Marco ui 2_9
+  - first:
+      213: -7737635853021641890
+    second: Marco ui 2_10
+  - first:
+      213: -8759661249705757950
+    second: Marco ui 2_11
+  - first:
+      213: -6035261607704027913
+    second: Marco ui 2_12
+  - first:
+      213: -6485566806294960724
+    second: Marco ui 2_13
+  - first:
+      213: 7112348159494194966
+    second: Marco ui 2_14
+  - first:
+      213: 844246948316282387
+    second: Marco ui 2_15
+  - first:
+      213: 5986936062341712927
+    second: Marco ui 2_16
+  - first:
+      213: 1268041805675151394
+    second: Marco ui 2_17
+  - first:
+      213: 5696007098975467365
+    second: Marco ui 2_18
+  - first:
+      213: -5840728295254369708
+    second: Marco ui 2_19
+  - first:
+      213: -3200095636818697196
+    second: Marco ui 2_20
+  - first:
+      213: 1464811653288212900
+    second: Marco ui 2_21
+  - first:
+      213: 5139666887476588221
+    second: Marco ui 2_22
+  - first:
+      213: -1280776071995345525
+    second: Marco ui 2_23
+  - first:
+      213: 7012924563089383663
+    second: Marco ui 2_24
+  - first:
+      213: -3171951518275029163
+    second: Marco ui 2_25
+  - first:
+      213: 6349959243724868185
+    second: Marco ui 2_26
+  - first:
+      213: 387697063089536492
+    second: Marco ui 2_27
+  - first:
+      213: -1363892688804334143
+    second: Marco ui 2_28
+  - first:
+      213: 7574400600546974560
+    second: Marco ui 2_29
+  - first:
+      213: -4016238361398251402
+    second: Marco ui 2_30
+  - first:
+      213: 4975305463332574869
+    second: Marco ui 2_31
+  - first:
+      213: -3218383985351244032
+    second: Marco ui 2_32
+  - first:
+      213: -5929657734543801833
+    second: Marco ui 2_33
+  - first:
+      213: 1793438561756523677
+    second: Marco ui 2_34
+  - first:
+      213: -555935696040251216
+    second: Marco ui 2_35
+  - first:
+      213: 6980811969789342961
+    second: Marco ui 2_36
+  - first:
+      213: -8542641263199855456
+    second: Marco ui 2_37
+  - first:
+      213: 3043978616954347008
+    second: Marco ui 2_38
+  - first:
+      213: 2103280310133899368
+    second: Marco ui 2_39
+  - first:
+      213: 3879062045959505278
+    second: Marco ui 2_40
+  - first:
+      213: 1562457286293449483
+    second: Marco ui 2_41
+  - first:
+      213: 5558089107584550395
+    second: Marco ui 2_42
+  - first:
+      213: -5633515399087687850
+    second: Marco ui 2_43
+  - first:
+      213: -2876061345362070212
+    second: Marco ui 2_44
+  - first:
+      213: 5489216505801053150
+    second: Marco ui 2_45
+  - first:
+      213: 512127173902188905
+    second: Marco ui 2_46
+  - first:
+      213: -4198968538398944276
+    second: Marco ui 2_47
+  - first:
+      213: 644008197712522493
+    second: Marco ui 2_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marco ui 2_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 481
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dbe16cd59b9ffc0800000000000000
+      internalID: -3460531026250515050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 472
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd62168f3c31fe870800000000000000
+      internalID: 8714205536391866077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 472
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb098ae11c190c7e0800000000000000
+      internalID: -1747236396790673218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_3
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 476
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699a8094b2a002a00800000000000000
+      internalID: 729594320659196310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 465
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe8e7740cddfb900800000000000000
+      internalID: 702523884796022461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 470
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd032b55c21274b0800000000000000
+      internalID: -5444268360690627142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 35
+        width: 431
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af17d0fe0decfdf90800000000000000
+      internalID: -6926590305113378310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 456
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f62dc7d97d011e50800000000000000
+      internalID: 6778213731132057330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 456
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9767a5a828311b800800000000000000
+      internalID: 626303274569070201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_9
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 455
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75a9f11d4228c750800000000000000
+      internalID: 6325343391051261311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 456
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53815bff256e9490800000000000000
+      internalID: -7737635853021641890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 435
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203b88a018e6f6680800000000000000
+      internalID: -8759661249705757950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 424
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc9f324b817e3ca0800000000000000
+      internalID: -6035261607704027913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 398
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca569b70a53aef5a0800000000000000
+      internalID: -6485566806294960724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 366
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6170e8dd7f224b260800000000000000
+      internalID: 7112348159494194966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 316
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e7911602e57bb00800000000000000
+      internalID: 844246948316282387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 308
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c8ad8e0aed51350800000000000000
+      internalID: 5986936062341712927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_17
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 308
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220cc9bcd4df89110800000000000000
+      internalID: 1268041805675151394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 298
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567398c17484c0f40800000000000000
+      internalID: 5696007098975467365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 273
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a5acb9f8091fea0800000000000000
+      internalID: -5840728295254369708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_20
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 279
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414e42029f9f693d0800000000000000
+      internalID: -3200095636818697196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 263
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9b811107e045410800000000000000
+      internalID: 1464811653288212900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_22
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 266
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe21e39dc3c35740800000000000000
+      internalID: 5139666887476588221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_23
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 245
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85b5e7c2f4c93ee0800000000000000
+      internalID: -1280776071995345525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_24
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 253
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0ed8bebb9e25160800000000000000
+      internalID: 7012924563089383663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 241
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557b47c56e6faf3d0800000000000000
+      internalID: -3171951518275029163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95acd64e9469f1850800000000000000
+      internalID: 6349959243724868185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedf9edbc60616500800000000000000
+      internalID: 387697063089536492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 198
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5b01463da721de0800000000000000
+      internalID: -1363892688804334143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_29
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 183
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b9b1e173dad1960800000000000000
+      internalID: 7574400600546974560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 161
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6707f8f3d747348c0800000000000000
+      internalID: -4016238361398251402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 153
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5969ff665f5db0540800000000000000
+      internalID: 4975305463332574869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_32
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 94
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007455a21d00653d0800000000000000
+      internalID: -3218383985351244032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7128ed405bf95bda0800000000000000
+      internalID: -5929657734543801833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_34
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 33
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c2cffaed293e810800000000000000
+      internalID: 1793438561756523677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_35
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0bf8f0e6be848f0800000000000000
+      internalID: -555935696040251216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_36
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 31
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4b6172083d0e060800000000000000
+      internalID: 6980811969789342961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_37
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acd06f2801727980800000000000000
+      internalID: -8542641263199855456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_38
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 21
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ed277ac626e3a20800000000000000
+      internalID: 3043978616954347008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_39
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 36
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860ca946c4a503d10800000000000000
+      internalID: 2103280310133899368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_40
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 15
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75cd1fe06235d530800000000000000
+      internalID: 3879062045959505278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bed36af96fea510800000000000000
+      internalID: 1562457286293449483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_42
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 18
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf58b87689c422d40800000000000000
+      internalID: 5558089107584550395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 19
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6577fa8979bb1d1b0800000000000000
+      internalID: -5633515399087687850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_44
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 18
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c353675c17d2618d0800000000000000
+      internalID: -2876061345362070212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_45
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed39b73345d9d2c40800000000000000
+      internalID: 5489216505801053150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_46
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961c34883f07b1700800000000000000
+      internalID: 512127173902188905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_47
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 4
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce390b58c544ab5c0800000000000000
+      internalID: -4198968538398944276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marco ui 2_48
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc28113b0affe800800000000000000
+      internalID: 644008197712522493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Marco ui 2_0: -3460531026250515050
+      Marco ui 2_1: 8714205536391866077
+      Marco ui 2_10: -7737635853021641890
+      Marco ui 2_11: -8759661249705757950
+      Marco ui 2_12: -6035261607704027913
+      Marco ui 2_13: -6485566806294960724
+      Marco ui 2_14: 7112348159494194966
+      Marco ui 2_15: 844246948316282387
+      Marco ui 2_16: 5986936062341712927
+      Marco ui 2_17: 1268041805675151394
+      Marco ui 2_18: 5696007098975467365
+      Marco ui 2_19: -5840728295254369708
+      Marco ui 2_2: -1747236396790673218
+      Marco ui 2_20: -3200095636818697196
+      Marco ui 2_21: 1464811653288212900
+      Marco ui 2_22: 5139666887476588221
+      Marco ui 2_23: -1280776071995345525
+      Marco ui 2_24: 7012924563089383663
+      Marco ui 2_25: -3171951518275029163
+      Marco ui 2_26: 6349959243724868185
+      Marco ui 2_27: 387697063089536492
+      Marco ui 2_28: -1363892688804334143
+      Marco ui 2_29: 7574400600546974560
+      Marco ui 2_3: 729594320659196310
+      Marco ui 2_30: -4016238361398251402
+      Marco ui 2_31: 4975305463332574869
+      Marco ui 2_32: -3218383985351244032
+      Marco ui 2_33: -5929657734543801833
+      Marco ui 2_34: 1793438561756523677
+      Marco ui 2_35: -555935696040251216
+      Marco ui 2_36: 6980811969789342961
+      Marco ui 2_37: -8542641263199855456
+      Marco ui 2_38: 3043978616954347008
+      Marco ui 2_39: 2103280310133899368
+      Marco ui 2_4: 702523884796022461
+      Marco ui 2_40: 3879062045959505278
+      Marco ui 2_41: 1562457286293449483
+      Marco ui 2_42: 5558089107584550395
+      Marco ui 2_43: -5633515399087687850
+      Marco ui 2_44: -2876061345362070212
+      Marco ui 2_45: 5489216505801053150
+      Marco ui 2_46: 512127173902188905
+      Marco ui 2_47: -4198968538398944276
+      Marco ui 2_48: 644008197712522493
+      Marco ui 2_5: -5444268360690627142
+      Marco ui 2_6: -6926590305113378310
+      Marco ui 2_7: 6778213731132057330
+      Marco ui 2_8: 626303274569070201
+      Marco ui 2_9: 6325343391051261311
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
