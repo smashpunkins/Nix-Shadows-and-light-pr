@@ -43,6 +43,9 @@
 		<type fullname="MoreMountains.Tools.MMSpawnAroundProperties" preserve="nothing" serialized="true"/>
 		<type fullname="MoreMountains.Tools.MMTweenType" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Unity.2D.Tilemap.Extras">
+		<type fullname="UnityEngine.RuleTile/TilingRule" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Unity.Postprocessing.Runtime">
 		<type fullname="UnityEngine.Rendering.PostProcessing.BoolParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.PostProcessing.ColorParameter" preserve="nothing" serialized="true"/>

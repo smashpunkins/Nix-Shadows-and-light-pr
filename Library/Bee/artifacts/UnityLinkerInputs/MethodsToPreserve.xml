@@ -6,6 +6,12 @@
 			<method name="QuitGame"/>
 		</type>
 	</assembly>
+	<assembly fullname="MoreMountains.CorgiEngine" ignoreIfMissing="1">
+		<type fullname="MoreMountains.CorgiEngine.LevelSelector">
+			<method name="GoToLevel"/>
+			<method name="GoToLevel"/>
+		</type>
+	</assembly>
 	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.AudioSource">
 			<method name="Play"/>

@@ -17,7 +17,7 @@ MonoBehaviour:
   m_Subtarget: 0
   m_PlatformId: 32e92b6f4db44fadb869cafb8184d021
   m_PlatformBuildProfile:
-    rid: 7644992336166387712
+    rid: 8783416194131558402
   m_OverrideGlobalSceneList: 0
   m_Scenes: []
   m_ScriptingDefines: []
@@ -26,10 +26,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7644992336166387712
+    - rid: 8783416194131558402
       type: {class: UWPPlatformSettings, ns: UnityEditor.UWP, asm: UnityEditor.UWP.Extensions}
       data:
-        m_Development: 1
+        m_Development: 0
         m_ConnectProfiler: 0
         m_BuildWithDeepProfilingSupport: 0
         m_AllowDebugging: 0
@@ -38,17 +38,17 @@ MonoBehaviour:
         m_ExplicitNullChecks: 0
         m_ExplicitDivideByZeroChecks: 0
         m_ExplicitArrayBoundsChecks: 0
-        m_CompressionType: 0
+        m_CompressionType: -1
         m_InstallInBuildFolder: 0
         m_InsightsSettingsContainer:
           m_BuildProfileEngineDiagnosticsState: 2
         m_CopyRefences: 0
-        m_CopyPDBFiles: 1
+        m_CopyPDBFiles: 0
         m_BuildConfiguration: 1
-        m_WsaArchitecture: x64
-        m_WsaUWPVisualStudioVersion: 17.14.36518.9
-        m_WsaUWPSDK: Latest installed
-        m_WsaMinUWPSDK: 10.0.19041.0
+        m_WsaArchitecture: 
+        m_WsaUWPVisualStudioVersion: 
+        m_WsaUWPSDK: 
+        m_WsaMinUWPSDK: 
         m_WsaUWPBuildType: 1
         m_WsaBuildAndRunDeployTarget: 0
         m_WindowsDevicePortalAddress: 

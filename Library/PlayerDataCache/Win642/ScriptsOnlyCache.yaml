@@ -75,6 +75,7 @@ ScriptsOnlyBuild:
     - MoreMountains.CorgiEngine.InventoryEngineChest
     - MoreMountains.CorgiEngine.InventoryEngineKey
     - MoreMountains.CorgiEngine.InventoryEnginePoints
+    - MoreMountains.CorgiEngine.InventoryEngineWeapon
     - MoreMountains.CorgiEngine.InventoryPickableItem
     - MoreMountains.CorgiEngine.KeyOperatedZone
     - MoreMountains.CorgiEngine.Ladder
@@ -86,10 +87,16 @@ ScriptsOnlyBuild:
     - MoreMountains.CorgiEngine.MusicSwitch
     - MoreMountains.CorgiEngine.ParallaxCamera
     - MoreMountains.CorgiEngine.PauseButton
+    - MoreMountains.CorgiEngine.PickableItem
+    - MoreMountains.CorgiEngine.Projectile
+    - MoreMountains.CorgiEngine.ProjectileWeapon
+    - MoreMountains.CorgiEngine.RetroDoor
     - MoreMountains.CorgiEngine.SaveResetButton
     - MoreMountains.CorgiEngine.SfxSwitch
     - MoreMountains.CorgiEngine.Teleporter
-    - MoreMountains.CorgiEngine.WallClingingOverride
+    - MoreMountains.CorgiEngine.WeaponAim
+    - MoreMountains.CorgiEngine.WeaponAmmo
+    - MoreMountains.CorgiEngine.WeaponLaserSight
     MoreMountains.Interface.dll:
     - MoreMountains.MMInterface.MMCarousel
     - MoreMountains.MMInterface.MMPopup
@@ -118,6 +125,8 @@ ScriptsOnlyBuild:
     - MoreMountains.Tools.MMProgressBar
     - MoreMountains.Tools.MMSimpleObjectPooler
     - MoreMountains.Tools.MMVisibleParticle
+    MoreMountains.Tools.Editor.dll:
+    - MoreMountains.Feedbacks.MMF_PlayerConfiguration
     MoreMountains.Tools.dll:
     - MoreMountains.Feedbacks.MMF_Player
     - MoreMountains.Feedbacks.MMFlash
@@ -142,6 +151,7 @@ ScriptsOnlyBuild:
     - MoreMountains.Tools.MMProgressBar
     - MoreMountains.Tools.MMSceneLoadingManager
     - MoreMountains.Tools.MMSelectionBase
+    - MoreMountains.Tools.MMSimpleObjectPooler
     - MoreMountains.Tools.MMSoundManager
     - MoreMountains.Tools.MMSoundManagerSettingsSO
     - MoreMountains.Tools.MMTouchAxis
@@ -149,6 +159,7 @@ ScriptsOnlyBuild:
     - MoreMountains.Tools.MMTouchJoystick
     - MoreMountains.Tools.MMVisibleParticle
     - MoreMountains.Tools.SelectionBase
+    - MoreMountains.Tools.ShaderController
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrushPickStore
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
@@ -161,6 +172,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.2D.Tilemap.Extras.dll:
+    - UnityEngine.RuleTile
     Unity.Postprocessing.Runtime:
     - UnityEngine.Rendering.PostProcessing.PostProcessProfile
     - UnityEngine.Rendering.PostProcessing.PostProcessVolume
@@ -272,6 +285,8 @@ ScriptsOnlyBuild:
     - MoreMountains.Tools.MMSoundManagerSettings
     - MoreMountains.Tools.MMSpawnAroundProperties
     - MoreMountains.Tools.MMTweenType
+    Unity.2D.Tilemap.Extras:
+    - UnityEngine.RuleTile/TilingRule
     Unity.Postprocessing.Runtime:
     - UnityEngine.Rendering.PostProcessing.BoolParameter
     - UnityEngine.Rendering.PostProcessing.ColorParameter
@@ -345,9 +360,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Quitter
     methodName: QuitGame
+  - assembly: MoreMountains.CorgiEngine
+    fullTypeName: MoreMountains.CorgiEngine.LevelSelector
+    methodName: GoToLevel
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: MoreMountains.CorgiEngine
+    fullTypeName: MoreMountains.CorgiEngine.LevelSelector
+    methodName: GoToLevel
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
@@ -355,7 +376,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
   sceneClasses:
-    Assets/Juego propio/scenes/Demos/The Fissure.unity:
+    Assets/Juego propio/scenes/Demos/The Fissure remake.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -372,11 +393,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 58
       Script: {instanceID: 0}
-    - Class: 60
-      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 66
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
@@ -401,9 +422,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 1752}
-    - Class: 114
       Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1764}
     - Class: 114
       Script: {instanceID: 1766}
     - Class: 114
@@ -463,8 +484,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12690}
     - Class: 114
-      Script: {instanceID: 12714}
-    - Class: 114
       Script: {instanceID: 12734}
     - Class: 114
       Script: {instanceID: 13032}
@@ -480,6 +499,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13494}
     - Class: 114
       Script: {instanceID: 13508}
+    - Class: 114
+      Script: {instanceID: 13538}
     - Class: 114
       Script: {instanceID: 13548}
     - Class: 114
@@ -503,8 +524,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14362}
     - Class: 114
-      Script: {instanceID: 14602}
-    - Class: 114
       Script: {instanceID: 14668}
     - Class: 114
       Script: {instanceID: 14818}
@@ -523,11 +542,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15420}
     - Class: 114
+      Script: {instanceID: 15472}
+    - Class: 114
+      Script: {instanceID: 15500}
+    - Class: 114
       Script: {instanceID: 15572}
     - Class: 114
       Script: {instanceID: 15656}
-    - Class: 114
-      Script: {instanceID: 15726}
     - Class: 114
       Script: {instanceID: 15808}
     - Class: 114
@@ -544,8 +565,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16420}
     - Class: 114
       Script: {instanceID: 16516}
-    - Class: 114
-      Script: {instanceID: 16540}
     - Class: 114
       Script: {instanceID: 16586}
     - Class: 114
@@ -644,6 +663,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 245
       Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
     - Class: 483693784
@@ -653,6 +674,172 @@ ScriptsOnlyBuild:
     - Class: 1839735485
       Script: {instanceID: 0}
     Assets/Juego propio/scenes/Intro/Intro.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 10720}
+    - Class: 114
+      Script: {instanceID: 11000}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12264}
+    - Class: 114
+      Script: {instanceID: 12422}
+    - Class: 114
+      Script: {instanceID: 13032}
+    - Class: 114
+      Script: {instanceID: 13292}
+    - Class: 114
+      Script: {instanceID: 13994}
+    - Class: 114
+      Script: {instanceID: 14668}
+    - Class: 114
+      Script: {instanceID: 15410}
+    - Class: 114
+      Script: {instanceID: 15418}
+    - Class: 114
+      Script: {instanceID: 16516}
+    - Class: 114
+      Script: {instanceID: 17220}
+    - Class: 114
+      Script: {instanceID: 17286}
+    - Class: 114
+      Script: {instanceID: 18234}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    Assets/Juego propio/scenes/Intro/inter 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 10720}
+    - Class: 114
+      Script: {instanceID: 11000}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12264}
+    - Class: 114
+      Script: {instanceID: 12422}
+    - Class: 114
+      Script: {instanceID: 13032}
+    - Class: 114
+      Script: {instanceID: 13292}
+    - Class: 114
+      Script: {instanceID: 13994}
+    - Class: 114
+      Script: {instanceID: 14668}
+    - Class: 114
+      Script: {instanceID: 15410}
+    - Class: 114
+      Script: {instanceID: 15418}
+    - Class: 114
+      Script: {instanceID: 16516}
+    - Class: 114
+      Script: {instanceID: 17220}
+    - Class: 114
+      Script: {instanceID: 17286}
+    - Class: 114
+      Script: {instanceID: 18234}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    Assets/Juego propio/scenes/Intro/inter 2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -866,7 +1053,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1708}
+      Script: {instanceID: 1698}
     - Class: 114
       Script: {instanceID: 11000}
     - Class: 114
@@ -1107,55 +1294,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18774}
     - Class: 114
-      Script: {instanceID: 42632}
+      Script: {instanceID: 54638}
     - Class: 114
-      Script: {instanceID: 42658}
+      Script: {instanceID: 54664}
     - Class: 114
-      Script: {instanceID: 42660}
+      Script: {instanceID: 54666}
     - Class: 114
-      Script: {instanceID: 42662}
+      Script: {instanceID: 54668}
     - Class: 114
-      Script: {instanceID: 42664}
+      Script: {instanceID: 54670}
     - Class: 114
-      Script: {instanceID: 42666}
+      Script: {instanceID: 54672}
     - Class: 114
-      Script: {instanceID: 42668}
+      Script: {instanceID: 54674}
     - Class: 114
-      Script: {instanceID: 42670}
+      Script: {instanceID: 54676}
     - Class: 114
-      Script: {instanceID: 42672}
+      Script: {instanceID: 54678}
     - Class: 114
-      Script: {instanceID: 42674}
+      Script: {instanceID: 54680}
     - Class: 114
-      Script: {instanceID: 42676}
+      Script: {instanceID: 54682}
     - Class: 114
-      Script: {instanceID: 42678}
+      Script: {instanceID: 54684}
     - Class: 114
-      Script: {instanceID: 42680}
+      Script: {instanceID: 54686}
     - Class: 114
-      Script: {instanceID: 42688}
+      Script: {instanceID: 54694}
     - Class: 114
-      Script: {instanceID: 42718}
+      Script: {instanceID: 54724}
     - Class: 114
-      Script: {instanceID: 42720}
+      Script: {instanceID: 54726}
     - Class: 114
-      Script: {instanceID: 42722}
+      Script: {instanceID: 54728}
     - Class: 114
-      Script: {instanceID: 42724}
+      Script: {instanceID: 54730}
     - Class: 114
-      Script: {instanceID: 42726}
+      Script: {instanceID: 54732}
     - Class: 114
-      Script: {instanceID: 42728}
+      Script: {instanceID: 54734}
     - Class: 114
-      Script: {instanceID: 42730}
+      Script: {instanceID: 54736}
     - Class: 114
-      Script: {instanceID: 42732}
+      Script: {instanceID: 54738}
     - Class: 114
-      Script: {instanceID: 42734}
+      Script: {instanceID: 54740}
     - Class: 114
-      Script: {instanceID: 42736}
+      Script: {instanceID: 54742}
     - Class: 114
-      Script: {instanceID: 42738}
+      Script: {instanceID: 54744}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1194,7 +1381,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 329
       Script: {instanceID: 0}
-    Assets/Juego propio/scenes/abandoned road/AbandonedRoad.unity:
+    Assets/Juego propio/scenes/abandoned road/AbandonedRoad remake.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1209,15 +1396,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 66
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
@@ -1234,9 +1427,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 1752}
-    - Class: 114
       Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1764}
     - Class: 114
       Script: {instanceID: 1766}
     - Class: 114
@@ -1254,11 +1447,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11000}
     - Class: 114
+      Script: {instanceID: 11040}
+    - Class: 114
       Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11148}
     - Class: 114
       Script: {instanceID: 11240}
     - Class: 114
       Script: {instanceID: 11386}
+    - Class: 114
+      Script: {instanceID: 11456}
     - Class: 114
       Script: {instanceID: 11636}
     - Class: 114
@@ -1290,9 +1489,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12690}
     - Class: 114
+      Script: {instanceID: 12714}
+    - Class: 114
       Script: {instanceID: 12734}
     - Class: 114
       Script: {instanceID: 13032}
+    - Class: 114
+      Script: {instanceID: 13054}
     - Class: 114
       Script: {instanceID: 13250}
     - Class: 114
@@ -1304,6 +1507,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13508}
     - Class: 114
+      Script: {instanceID: 13538}
+    - Class: 114
       Script: {instanceID: 13548}
     - Class: 114
       Script: {instanceID: 13600}
@@ -1311,6 +1516,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13818}
     - Class: 114
       Script: {instanceID: 13994}
+    - Class: 114
+      Script: {instanceID: 14006}
     - Class: 114
       Script: {instanceID: 14086}
     - Class: 114
@@ -1324,9 +1531,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14362}
     - Class: 114
+      Script: {instanceID: 14602}
+    - Class: 114
       Script: {instanceID: 14668}
     - Class: 114
       Script: {instanceID: 14818}
+    - Class: 114
+      Script: {instanceID: 14974}
     - Class: 114
       Script: {instanceID: 15064}
     - Class: 114
@@ -1340,9 +1551,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15420}
     - Class: 114
+      Script: {instanceID: 15472}
+    - Class: 114
+      Script: {instanceID: 15500}
+    - Class: 114
       Script: {instanceID: 15572}
     - Class: 114
       Script: {instanceID: 15656}
+    - Class: 114
+      Script: {instanceID: 15726}
+    - Class: 114
+      Script: {instanceID: 15808}
     - Class: 114
       Script: {instanceID: 16024}
     - Class: 114
@@ -1370,6 +1589,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17234}
     - Class: 114
+      Script: {instanceID: 17352}
+    - Class: 114
+      Script: {instanceID: 17380}
+    - Class: 114
+      Script: {instanceID: 17382}
+    - Class: 114
       Script: {instanceID: 17388}
     - Class: 114
       Script: {instanceID: 17422}
@@ -1382,6 +1607,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17702}
     - Class: 114
+      Script: {instanceID: 17860}
+    - Class: 114
       Script: {instanceID: 17878}
     - Class: 114
       Script: {instanceID: 17916}
@@ -1389,6 +1616,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 18112}
     - Class: 114
       Script: {instanceID: 18118}
+    - Class: 114
+      Script: {instanceID: 18198}
     - Class: 114
       Script: {instanceID: 18276}
     - Class: 114
@@ -1443,6 +1672,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 245
       Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
     - Class: 483693784
@@ -1466,10 +1697,10 @@ ScriptsOnlyBuild:
     className: MMCinemachineZone2D
   - hash:
       serializedVersion: 2
-      Hash: 3b94b7f56fdbaf7093835729cfb356ea
+      Hash: a54e7b469295dea298c31c37fdd8bde3
     assemblyName: MoreMountains.Tools
-    namespaceName: MoreMountains.Feedbacks
-    className: MMMiniObjectPooler
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMPostProcessingHelpers
   - hash:
       serializedVersion: 2
       Hash: e7109d11cfc56b7ed7cd148527246858
@@ -1484,16 +1715,16 @@ ScriptsOnlyBuild:
     className: MMAutoInputModule
   - hash:
       serializedVersion: 2
+      Hash: 3b94b7f56fdbaf7093835729cfb356ea
+    assemblyName: MoreMountains.Tools
+    namespaceName: MoreMountains.Feedbacks
+    className: MMMiniObjectPooler
+  - hash:
+      serializedVersion: 2
       Hash: 7b0ce3d4235ee99cd1baa8823f2bfec1
     assemblyName: MoreMountains.Tools
     namespaceName: MoreMountains.Tools
     className: MMRigidbodyInterface
-  - hash:
-      serializedVersion: 2
-      Hash: a54e7b469295dea298c31c37fdd8bde3
-    assemblyName: MoreMountains.Tools
-    namespaceName: MoreMountains.FeedbacksForThirdParty
-    className: MMPostProcessingHelpers
   - hash:
       serializedVersion: 2
       Hash: 19d0799855f8b974fcad2a17ef9997e3
@@ -1550,34 +1781,10 @@ ScriptsOnlyBuild:
     className: MeleeWeapon
   - hash:
       serializedVersion: 2
-      Hash: 44c4226ad925faeb08752a528b85f61d
-    assemblyName: MoreMountains.CorgiEngine
-    namespaceName: MoreMountains.CorgiEngine
-    className: Character
-  - hash:
-      serializedVersion: 2
       Hash: 0e47774143d5fd8f91426337637f7ae7
     assemblyName: MoreMountains.CorgiEngine
     namespaceName: MoreMountains.CorgiEngine
     className: CharacterSwapManager
-  - hash:
-      serializedVersion: 2
-      Hash: e8b5a04f9f599ca6cf6e68f46be90bc9
-    assemblyName: MoreMountains.CorgiEngine
-    namespaceName: MoreMountains.CorgiEngine
-    className: KillsManager
-  - hash:
-      serializedVersion: 2
-      Hash: 83dbe61f295957340ec53affb6b6571e
-    assemblyName: MoreMountains.CorgiEngine
-    namespaceName: MoreMountains.CorgiEngine
-    className: ProximityManager
-  - hash:
-      serializedVersion: 2
-      Hash: 8b15644c961aec2c50dd01b5042fe146
-    assemblyName: MoreMountains.CorgiEngine
-    namespaceName: MoreMountains.CorgiEngine
-    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 4845973e21b10266c797c04d2f15bedd
@@ -1586,10 +1793,34 @@ ScriptsOnlyBuild:
     className: CharacterSwitchManager
   - hash:
       serializedVersion: 2
+      Hash: 83dbe61f295957340ec53affb6b6571e
+    assemblyName: MoreMountains.CorgiEngine
+    namespaceName: MoreMountains.CorgiEngine
+    className: ProximityManager
+  - hash:
+      serializedVersion: 2
+      Hash: e8b5a04f9f599ca6cf6e68f46be90bc9
+    assemblyName: MoreMountains.CorgiEngine
+    namespaceName: MoreMountains.CorgiEngine
+    className: KillsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8b15644c961aec2c50dd01b5042fe146
+    assemblyName: MoreMountains.CorgiEngine
+    namespaceName: MoreMountains.CorgiEngine
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: f6df3881652c01695205d792cc47fafd
     assemblyName: MoreMountains.CorgiEngine
     namespaceName: MoreMountains.CorgiEngine
     className: MMSpriteMask
+  - hash:
+      serializedVersion: 2
+      Hash: 44c4226ad925faeb08752a528b85f61d
+    assemblyName: MoreMountains.CorgiEngine
+    namespaceName: MoreMountains.CorgiEngine
+    className: Character
   - hash:
       serializedVersion: 2
       Hash: 41adaead76a41c0c08fbddf7d50156c9
@@ -6119,8 +6350,10 @@ ScriptsOnlyBuild:
   - Assets/Juego propio/scenes/Start menu/StartScreenedit.unity
   - Assets/Juego propio/scenes/Loading screen/LoadingScreenedit.unity
   - Assets/Juego propio/scenes/Intro/Intro.unity
-  - Assets/Juego propio/scenes/Demos/The Fissure.unity
-  - Assets/Juego propio/scenes/abandoned road/AbandonedRoad.unity
+  - Assets/Juego propio/scenes/Demos/The Fissure remake.unity
+  - Assets/Juego propio/scenes/Intro/inter 1.unity
+  - Assets/Juego propio/scenes/abandoned road/AbandonedRoad remake.unity
+  - Assets/Juego propio/scenes/Intro/inter 2.unity
   - Assets/Juego propio/scenes/LevelSelectorit/LevelSelectionit.unity
-  playerPath: "C:/Users/eduze/Documents/DISE\xD1O INTERACTIVO/UNAD/Build3/Nix Shadow
-    and Lights.exe"
+  playerPath: "C:/Users/eduze/Documents/DISE\xD1O INTERACTIVO/build 2/build 2.9/Nix
+    Shadow and Lights.exe"

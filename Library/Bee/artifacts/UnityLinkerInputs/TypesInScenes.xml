@@ -73,11 +73,11 @@
 		<type fullname="MoreMountains.CorgiEngine.PickableItem" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.Projectile" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.ProjectileWeapon" preserve="nothing"/>
+		<type fullname="MoreMountains.CorgiEngine.RetroDoor" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.SaveResetButton" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.SfxSwitch" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.Teleporter" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.ThrownObject" preserve="nothing"/>
-		<type fullname="MoreMountains.CorgiEngine.WallClingingOverride" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.WeaponAim" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.WeaponAmmo" preserve="nothing"/>
 		<type fullname="MoreMountains.CorgiEngine.WeaponAutoAim" preserve="nothing"/>
@@ -132,6 +132,10 @@
 		<type fullname="MoreMountains.Tools.MMTouchJoystick" preserve="nothing"/>
 		<type fullname="MoreMountains.Tools.MMVisibleParticle" preserve="nothing"/>
 		<type fullname="MoreMountains.Tools.SelectionBase" preserve="nothing"/>
+		<type fullname="MoreMountains.Tools.ShaderController" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.2D.Tilemap.Extras">
+		<type fullname="UnityEngine.RuleTile" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.Postprocessing.Runtime">
 		<type fullname="UnityEngine.Rendering.PostProcessing.AmbientOcclusion" preserve="nothing"/>
@@ -191,6 +195,7 @@
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
+		<type fullname="UnityEngine.CompositeCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.ComputeShader" preserve="nothing"/>
 		<type fullname="UnityEngine.FlareLayer" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
@@ -207,7 +212,6 @@
 		<type fullname="UnityEngine.ParticleSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.ParticleSystemRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.PhysicsMaterial2D" preserve="nothing"/>
-		<type fullname="UnityEngine.PolygonCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
@@ -223,6 +227,7 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Tilemaps.Tilemap" preserve="nothing"/>
+		<type fullname="UnityEngine.Tilemaps.TilemapCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Tilemaps.TilemapRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
 		<type fullname="UnityEngine.Video.VideoClip" preserve="nothing"/>

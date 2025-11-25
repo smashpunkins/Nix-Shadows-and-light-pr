@@ -234,13 +234,25 @@ EditorBuildSettings:
     path: Assets/Juego propio/scenes/Intro/Intro.unity
     guid: f28b58ad629ccef408269181b45f8c75
   - enabled: 1
-    path: Assets/Juego propio/scenes/Demos/The Fissure.unity
-    guid: bfc8a5dcf816dbd469a3e5fa0f530117
+    path: Assets/Juego propio/scenes/Demos/The Fissure remake.unity
+    guid: 5463e9c0b4f3d8b4780d85b348831478
   - enabled: 1
-    path: Assets/Juego propio/scenes/abandoned road/AbandonedRoad.unity
-    guid: b82324cf8a299a54a86b770077711f8c
+    path: Assets/Juego propio/scenes/Intro/inter 1.unity
+    guid: aeeb8f188beaca641a84eac3767e9c36
+  - enabled: 1
+    path: Assets/Juego propio/scenes/abandoned road/AbandonedRoad remake.unity
+    guid: cf88604a897680f4d931f749379f7972
+  - enabled: 1
+    path: Assets/Juego propio/scenes/Intro/inter 2.unity
+    guid: 139f0d4c449b7a3489eea9a0cd244a51
   - enabled: 1
     path: Assets/Juego propio/scenes/LevelSelectorit/LevelSelectionit.unity
     guid: 3df1cb2d4befe574cbe43258d5c42801
+  - enabled: 0
+    path: Assets/Juego propio/scenes/Demos/The Fissure.unity
+    guid: bfc8a5dcf816dbd469a3e5fa0f530117
+  - enabled: 0
+    path: Assets/Juego propio/scenes/abandoned road/AbandonedRoad.unity
+    guid: b82324cf8a299a54a86b770077711f8c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
